@@ -1,0 +1,29 @@
+# Node/React
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Java/Spring
+target/
+*.class
+*.jar
+*.war
+.mvn/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db

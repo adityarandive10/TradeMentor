@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1d4ed8;
+  --color-primary-dark: #1e3a8a;
+  --color-navy: #1e293b;
+  --color-light-gray: #f8fafc;
+  --color-border-gray: #e2e8f0;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-light-gray);
+    color: var(--color-navy);
+  }
+}
